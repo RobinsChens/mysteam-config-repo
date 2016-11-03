@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 172.16.5.25:9092
+          zkNodes: 172.16.5.25:2181
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.16.5.23:1111/eureka/
